@@ -1,0 +1,8 @@
+[package]
+name = "day3"
+version = "0.1.0"
+authors = ["Sky Yin <sky.yin@gmail.com>"]
+
+[dependencies]
+csv = "0.15.0"
+rustc-serialize = "0.3.24"

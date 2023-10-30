@@ -13,5 +13,20 @@ fn main() {
 
     let name = what_is_your_name();
 
-    println!("Hello, {:?}", name)
+    println!("Hello, {:?}", name);
+
+    let visitor_list = ["bert", "steve", "fred"];
+    let mut allow_them_in = false;
+    for visitor in &visitor_list {
+        if visitor == &name {
+            allow_them_in = true;
+        }
+    }
+
+    if allow_them_in {
+        println!("Welcome to the Treehouse, {}", name);
+    } else {
+        println!("Sorry, you aren't on the list.");
+    }
 }
+

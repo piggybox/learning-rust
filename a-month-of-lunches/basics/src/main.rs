@@ -1,5 +1,6 @@
 fn main() {
-    let doesnt_print = ();
-    println!("This will not print: {:?}", doesnt_print); // ⚠
+    let mut my_name: String = "John".to_string();
+    my_name.push('!');
+    println!("Hello, {}!", my_name);
 }
  
